@@ -84,7 +84,7 @@ const Projects = () => {
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <h5 className="text-lg font-bold text-deep-blue mb-3">2. Wu Qin Xi (Cinco Animais)</h5>
                     <p className="text-gray-700 mb-4">
-                      <strong>Descrição:</strong> O Wu Qin Xi é um conjunto de exercícios baseados nos movimentos de cinco animais: tigre, cervo, urso, macaco e pássaro. Cada movimento imita as características específicas dos animais para fortalecer diferentes partes do corpo e harmonizar a energia.
+                      <strong>Descrição:</strong> O Wu Qin Xi é um conjunto de exercícios baseados nos movimentos de cinco animais: dragão, graça, serpente, tigre e tartaruga. Cada movimento imita as características específicas dos animais para fortalecer diferentes partes do corpo e harmonizar a energia.
                     </p>
                     <div>
                       <strong>Benefícios para 50+:</strong>
