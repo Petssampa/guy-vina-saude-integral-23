@@ -9,9 +9,9 @@ import { useSEO } from '@/hooks/useSEO';
 const Index = () => {
   // SEO otimizado para a página inicial com Schema Markup
   useSEO({
-    title: "Terapia Tradicional Chinesa | Qi Gong | Geisler Viana - São Paulo",
-    description: "Transforme sua saúde com Qi Gong e terapias chinesas milenares. Geisler Viana, especialista em Medicina Tradicional Chinesa em São Paulo. Agende consulta.",
-    keywords: "medicina tradicional chinesa, qi gong, tuina, acupuntura, geisler viana, terapia chinesa são paulo",
+    title: "Medicina Tradicional Chinesa SP | Qi Gong | Geisler Viana | Acupuntura",
+    description: "✅ Medicina Tradicional Chinesa em São Paulo. Geisler Viana: Qi Gong, Tuina, Acupuntura. 15+ anos experiência. Agende consulta: (11) 99024-1982",
+    keywords: "medicina tradicional chinesa são paulo, qi gong sp, acupuntura são paulo, tuina massagem, geisler viana, terapia chinesa zona norte",
     canonicalUrl: "https://guyvina.com/",
     ogTitle: "Terapia Tradicional Chinesa | Qi Gong | Geisler Viana - São Paulo",
     ogDescription: "Transforme sua saúde com Qi Gong e terapias chinesas milenares. Geisler Viana, especialista em Medicina Tradicional Chinesa em São Paulo. Agende consulta.",
