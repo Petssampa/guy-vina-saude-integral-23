@@ -124,7 +124,7 @@ const Projects = () => {
                 <div className="bg-bronze/10 p-6 rounded-lg">
                   <h5 className="text-lg font-bold text-deep-blue mb-3">Aulas Semanais de Qi Gong 50+</h5>
                   <p className="text-gray-700 mb-4">
-                    <strong>Objetivo:</strong> Dar aulas online e presenciais de Qi Gong para pessoas com mais de 50 anos. As aulas serão suaves e acessíveis, com ênfase na técnica de Zhan Zhuang.
+                    <strong>Objetivo:</strong> Dar aulas presenciais de Qi Gong para pessoas com mais de 50 anos. As aulas serão suaves e acessíveis, com ênfase na técnica de Zhan Zhuang.
                   </p>
                   
                   <div className="space-y-4">
