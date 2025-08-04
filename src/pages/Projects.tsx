@@ -53,7 +53,7 @@ const Projects = () => {
               <div>
                 <h4 className="text-xl font-bold text-deep-blue mb-4">Objetivo do Projeto:</h4>
                 <p className="text-gray-700 leading-relaxed">
-                  Proporcionar aos indivíduos com mais de 50 anos a oportunidade de melhorar sua saúde física e mental por meio das práticas tradicionais do Qi Gong, com foco nas técnicas de Zhan Zhuang e Ba Duan Jin. Essas técnicas são ideais para aumentar a vitalidade, promover o relaxamento e restaurar o equilíbrio, ajudando a reduzir o estresse, melhorar a postura e fortalecer o corpo.
+                  Proporcionar aos indivíduos com mais de 50 anos a oportunidade de melhorar sua saúde física e mental por meio das práticas tradicionais do Qi Gong, com foco nas técnicas de Zhan Zhuang, Wu Qin Xi e Ba Duan Jin (opcional). Essas técnicas são ideais para aumentar a vitalidade, promover o relaxamento e restaurar o equilíbrio, ajudando a reduzir o estresse, melhorar a postura e fortalecer o corpo.
                 </p>
               </div>
 
@@ -106,14 +106,14 @@ const Projects = () => {
                 <div className="bg-bronze/10 p-6 rounded-lg">
                   <h5 className="text-lg font-bold text-deep-blue mb-3">Aulas Semanais de Qi Gong 50+</h5>
                   <p className="text-gray-700 mb-4">
-                    <strong>Objetivo:</strong> Dar aulas online e presenciais de Qi Gong para pessoas com mais de 50 anos. As aulas serão suaves e acessíveis, com ênfase nas técnicas de Zhan Zhuang e Ba Duan Jin.
+                    <strong>Objetivo:</strong> Dar aulas online e presenciais de Qi Gong para pessoas com mais de 50 anos. As aulas serão suaves e acessíveis, com ênfase na técnica de Zhan Zhuang.
                   </p>
                   
                   <div className="space-y-4">
                     <div>
                       <strong>Detalhes:</strong>
                       <ul className="list-disc list-inside text-gray-700 mt-2 space-y-1">
-                        <li><strong>Duração das Aulas:</strong> 60 minutos</li>
+                        <li><strong>Duração das Aulas:</strong> entre 50 e 60 minutos</li>
                         <li><strong>Frequência:</strong> 1 vez por semana</li>
                       </ul>
                     </div>
@@ -123,8 +123,8 @@ const Projects = () => {
                       <ul className="list-disc list-inside text-gray-700 mt-2 space-y-1">
                         <li>Aquecimento e alongamentos leves (10 minutos)</li>
                         <li>Prática de Zhan Zhuang (20 minutos)</li>
-                        <li>Exercícios Ba Duan Jin (20 minutos)</li>
-                        <li>Sessão de relaxamento e meditação (10 minutos)</li>
+                        <li>Exercícios Wu Qin Xi (20 minutos)</li>
+                        <li>Exercícios Ba Duan Jin (20 minutos) opcional</li>
                       </ul>
                     </div>
                     
