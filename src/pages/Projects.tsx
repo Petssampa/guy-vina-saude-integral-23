@@ -61,7 +61,7 @@ const Projects = () => {
               <div>
                 <h4 className="text-xl font-bold text-deep-blue mb-6">Técnicas Focadas:</h4>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                   {/* Zhan Zhuang */}
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <h5 className="text-lg font-bold text-deep-blue mb-3">1. Zhan Zhuang (Postura da Árvore)</h5>
@@ -80,9 +80,27 @@ const Projects = () => {
                     </div>
                   </div>
 
+                  {/* Wu Qin Xi */}
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h5 className="text-lg font-bold text-deep-blue mb-3">2. Wu Qin Xi (Cinco Animais)</h5>
+                    <p className="text-gray-700 mb-4">
+                      <strong>Descrição:</strong> O Wu Qin Xi é um conjunto de exercícios baseados nos movimentos de cinco animais: tigre, cervo, urso, macaco e pássaro. Cada movimento imita as características específicas dos animais para fortalecer diferentes partes do corpo e harmonizar a energia.
+                    </p>
+                    <div>
+                      <strong>Benefícios para 50+:</strong>
+                      <ul className="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                        <li>Melhora a coordenação e o equilíbrio</li>
+                        <li>Fortalece músculos e articulações</li>
+                        <li>Estimula a circulação sanguínea</li>
+                        <li>Desenvolve a flexibilidade</li>
+                        <li>Promove relaxamento mental</li>
+                      </ul>
+                    </div>
+                  </div>
+
                   {/* Ba Duan Jin */}
                   <div className="bg-gray-50 p-6 rounded-lg">
-                    <h5 className="text-lg font-bold text-deep-blue mb-3">2. Ba Duan Jin (Oito Brocados)</h5>
+                    <h5 className="text-lg font-bold text-deep-blue mb-3">3. Ba Duan Jin (Oito Brocados) opcional</h5>
                     <p className="text-gray-700 mb-4">
                       <strong>Descrição:</strong> O Ba Duan Jin é uma série de oito exercícios suaves, que ajudam a melhorar a flexibilidade, aumentar a circulação e fortalecer o corpo. Cada movimento do Qi Gong ajuda em uma parte do corpo e da mente, trazendo mais equilíbrio e bem-estar.
                     </p>
