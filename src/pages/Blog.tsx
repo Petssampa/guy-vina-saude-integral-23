@@ -75,6 +75,16 @@ const Blog = () => {
           </div>
         </section>
       )}
+      <WordPressBlogPost post={posts[0]} featured={true} />
+
+{/* Seu post novo */}
+<div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+  <h3 className="text-xl font-bold text-deep-blue">Acupuntura para Dor Lombar</h3>
+  <p className="text-gray-600 mt-2">Alívio natural e eficaz com técnicas milenares da Medicina Chinesa.</p>
+  <a href="/blog/acupuntura-dor-lombar" className="text-deep-blue hover:text-blue-800 font-semibold">
+    Ler artigo completo →
+  </a>
+</div>
 
       {/* Post Fixo do Maine Coon */}
       <section className="py-16 bg-white">
