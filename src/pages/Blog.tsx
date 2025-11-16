@@ -2,8 +2,6 @@ import { Button } from '@/components/ui/button';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
-import WordPressBlogPost from '@/components/WordPressBlogPost';
-import { useWordPressPosts } from '@/hooks/useWordPressPosts';
 import { useSEO } from '@/hooks/useSEO';
 
 const Blog = () => {
@@ -16,8 +14,6 @@ const Blog = () => {
     ogDescription: "Artigos sobre Medicina Tradicional Chinesa, acupuntura, fitoterapia e dicas para uma vida mais saudável e equilibrada.",
     ogUrl: "https://guyvina.com/blog-medicina-chinesa"
   });
-
-  const { data: posts, isLoading, error } = useWordPressPosts(10);
 
   return (
     <div className="min-h-screen">
@@ -44,26 +40,6 @@ const Blog = () => {
         </div>
       </section>
 
-      {/* Status de carregamento */}
-      {isLoading && (
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4 text-center">
-            <p className="text-gray-600">Carregando posts...</p>
-          </div>
-        </section>
-      )}
-
-      {/* Mensagem de erro */}
-      {error && (
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4 text-center">
-            <p className="text-gray-600 mb-4">
-              Conectando ao WordPress... Exibindo posts de exemplo.
-            </p>
-          </div>
-        </section>
-      )}
-
       {/* Seus posts criados por você */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
@@ -74,7 +50,7 @@ const Blog = () => {
             <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
               <h3 className="text-xl font-bold text-deep-blue">Acupuntura para Ansiedade</h3>
               <p className="text-gray-600 mt-2">Alívio natural e eficaz com técnicas milenares da Medicina Chinesa.</p>
-              <a href="/blog/acupuntura-ansiedade" className="text-deep-blue hover:text-blue-800 font-semibold">
+              <a href="/blog/acupuntura-ansiedade" className="text-deep-blue hover:text-blue-800 font-semibold mt-2 inline-block">
                 Ler artigo completo →
               </a>
             </div>
@@ -83,7 +59,7 @@ const Blog = () => {
             <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
               <h3 className="text-xl font-bold text-deep-blue">Acupuntura para Dor Lombar</h3>
               <p className="text-gray-600 mt-2">Alívio natural e eficaz com técnicas milenares da Medicina Chinesa.</p>
-              <a href="/blog/acupuntura-dor-lombar" className="text-deep-blue hover:text-blue-800 font-semibold">
+              <a href="/blog/acupuntura-dor-lombar" className="text-deep-blue hover:text-blue-800 font-semibold mt-2 inline-block">
                 Ler artigo completo →
               </a>
             </div>
@@ -91,37 +67,6 @@ const Blog = () => {
           </div>
         </div>
       </section>
-      {/* Post de exemplo */}
-<section className="py-16 bg-white">
-  <div className="container mx-auto px-4">
-    <div className="max-w-6xl mx-auto">
-      <h2 className="text-3xl font-bold text-deep-blue mb-8 text-center">Artigos Recentes</h2>
-      <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
-        <h3 className="text-xl font-bold text-deep-blue">Acupuntura para Ansiedade</h3>
-        <p className="text-gray-600 mt-2">Alívio natural e eficaz com técnicas milenares da Medicina Chinesa.</p>
-        <a href="/blog/acupuntura-ansiedade" className="text-deep-blue hover:text-blue-800 font-semibold mt-2 inline-block">
-          Ler artigo completo →
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-      {/* Posts do WordPress (opcional, se quiser continuar mostrando) */}
-      {posts && posts.length > 0 && (
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl font-bold text-deep-blue mb-8 text-center">Outros Artigos</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {posts.map((post) => (
-                  <WordPressBlogPost key={post.id} post={post} />
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Newsletter Subscription */}
       <section className="py-16 bg-gray-50">
