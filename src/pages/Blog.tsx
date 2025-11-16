@@ -63,6 +63,21 @@ const Blog = () => {
           </div>
         </section>
       )}
+      {/* Post de exemplo */}
+<section className="py-16 bg-white">
+  <div className="container mx-auto px-4">
+    <div className="max-w-6xl mx-auto">
+      <h2 className="text-3xl font-bold text-deep-blue mb-8 text-center">Artigos Recentes</h2>
+      <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+        <h3 className="text-xl font-bold text-deep-blue">Acupuntura para Ansiedade</h3>
+        <p className="text-gray-600 mt-2">Alívio natural e eficaz com técnicas milenares da Medicina Chinesa.</p>
+        <a href="/blog/acupuntura-ansiedade" className="text-deep-blue hover:text-blue-800 font-semibold">
+          Ler artigo completo →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Featured Post */}
       {posts && posts.length > 0 && (
