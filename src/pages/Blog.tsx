@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -76,6 +75,29 @@ const Blog = () => {
           </div>
         </section>
       )}
+
+      {/* Post Fixo do Maine Coon */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold text-deep-blue mb-8 text-center">Conheça Outros Assuntos</h2>
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-deep-blue mb-4">Maine Coon: O Guia Definitivo do Gato Gigante</h3>
+                <p className="text-gray-600 mb-4">
+                  Descubra tudo sobre essa raça fascinante: origem, cuidados, saúde, personalidade e muito mais.
+                </p>
+                <a
+                  href="/blog/mainecoon"
+                  className="inline-block bg-deep-blue text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition"
+                >
+                  Ler Post Completo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Posts Grid */}
       {posts && posts.length > 1 && (
