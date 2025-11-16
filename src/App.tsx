@@ -1,3 +1,4 @@
+import BlogPostAcupunturaAnsiedade from "./pages/BlogPostAcupunturaAnsiedade";
 import BlogPostExemplo from "./pages/BlogPostExemplo";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
