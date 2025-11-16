@@ -13,6 +13,7 @@ import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import MaineCoonPost from "./pages/MaineCoonPost"; // 👈 NOVA LINHA
+import BlogPostDorLombar from "./pages/BlogPostDorLombar";
 
 const queryClient = new QueryClient();
 
