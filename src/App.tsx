@@ -1,4 +1,4 @@
-
+import BlogPostExemplo from "./pages/BlogPostExemplo";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -37,6 +37,7 @@ const App = () => (
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/mainecoon" element={<MaineCoonPost />} /> // 👈 NOVA LINHA
           <Route path="/blog/acupuntura-dor-lombar" element={<BlogPostDorLombar />} />
+          <Route path="/blog/acupuntura-ansiedade" element={<BlogPostExemplo />} />
           <Route path="/contato" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
