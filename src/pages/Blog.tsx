@@ -63,75 +63,43 @@ const Blog = () => {
           </div>
         </section>
       )}
-      {/* Post de exemplo */}
-<section className="py-16 bg-white">
-  <div className="container mx-auto px-4">
-    <div className="max-w-6xl mx-auto">
-      <h2 className="text-3xl font-bold text-deep-blue mb-8 text-center">Artigos Recentes</h2>
-      <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
-        <h3 className="text-xl font-bold text-deep-blue">Acupuntura para Ansiedade</h3>
-        <p className="text-gray-600 mt-2">Alívio natural e eficaz com técnicas milenares da Medicina Chinesa.</p>
-        <a href="/blog/acupuntura-ansiedade" className="text-deep-blue hover:text-blue-800 font-semibold">
-          Ler artigo completo →
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
 
-      {/* Featured Post */}
-      {posts && posts.length > 0 && (
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl font-bold text-deep-blue mb-8 text-center">Post em Destaque</h2>
-              <WordPressBlogPost post={posts[0]} featured={true} />
-            </div>
-          </div>
-        </section>
-      )}
-      <WordPressBlogPost post={posts[0]} featured={true} />
-
-{/* Seu post novo */}
-<div className="bg-white rounded-lg shadow-lg p-6 mb-8">
-  <h3 className="text-xl font-bold text-deep-blue">Acupuntura para Dor Lombar</h3>
-  <p className="text-gray-600 mt-2">Alívio natural e eficaz com técnicas milenares da Medicina Chinesa.</p>
-  <a href="/blog/acupuntura-dor-lombar" className="text-deep-blue hover:text-blue-800 font-semibold">
-    Ler artigo completo →
-  </a>
-</div>
-
-      {/* Post Fixo do Maine Coon */}
+      {/* Seus posts criados por você */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold text-deep-blue mb-8 text-center">Conheça Outros Assuntos</h2>
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="p-6">
-                <h3 className="text-2xl font-bold text-deep-blue mb-4">Maine Coon: O Guia Definitivo do Gato Gigante</h3>
-                <p className="text-gray-600 mb-4">
-                  Descubra tudo sobre essa raça fascinante: origem, cuidados, saúde, personalidade e muito mais.
-                </p>
-                <a
-                  href="/blog/mainecoon"
-                  className="inline-block bg-deep-blue text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition"
-                >
-                  Ler Post Completo
-                </a>
-              </div>
+            <h2 className="text-3xl font-bold text-deep-blue mb-8 text-center">Artigos Recentes</h2>
+            
+            {/* Post 1: Ansiedade */}
+            <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+              <h3 className="text-xl font-bold text-deep-blue">Acupuntura para Ansiedade</h3>
+              <p className="text-gray-600 mt-2">Alívio natural e eficaz com técnicas milenares da Medicina Chinesa.</p>
+              <a href="/blog/acupuntura-ansiedade" className="text-deep-blue hover:text-blue-800 font-semibold">
+                Ler artigo completo →
+              </a>
             </div>
+
+            {/* Post 2: Dor Lombar */}
+            <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+              <h3 className="text-xl font-bold text-deep-blue">Acupuntura para Dor Lombar</h3>
+              <p className="text-gray-600 mt-2">Alívio natural e eficaz com técnicas milenares da Medicina Chinesa.</p>
+              <a href="/blog/acupuntura-dor-lombar" className="text-deep-blue hover:text-blue-800 font-semibold">
+                Ler artigo completo →
+              </a>
+            </div>
+
           </div>
         </div>
       </section>
 
-      {/* Posts Grid */}
-      {posts && posts.length > 1 && (
-        <section className="py-16 bg-white">
+      {/* Posts do WordPress (opcional, se quiser continuar mostrando) */}
+      {posts && posts.length > 0 && (
+        <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl font-bold text-deep-blue mb-8 text-center">Artigos Recentes</h2>
+              <h2 className="text-3xl font-bold text-deep-blue mb-8 text-center">Outros Artigos</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {posts.slice(1).map((post) => (
+                {posts.map((post) => (
                   <WordPressBlogPost key={post.id} post={post} />
                 ))}
               </div>
