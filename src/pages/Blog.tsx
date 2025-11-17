@@ -30,7 +30,17 @@ const Blog = () => {
         <div className="hero-overlay absolute inset-0" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-                  {/* Novo layout: 1 caixa principal + 3 caixas menores */}
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              Blog
+            </h1>
+            <p className="text-xl text-gray-200">
+              Nosso blog tem posts sobre Medicina Chinesa e cultura!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ✅ NOVO LAYOUT: Caixa Principal + 3 Caixas Menores */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
@@ -109,6 +119,11 @@ const Blog = () => {
           </div>
         </div>
       </section>
+
+      {/* ✅ Newsletter (abaixo das caixas) */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6 text-deep-blue">
               Mantenha-se Atualizado
             </h2>
