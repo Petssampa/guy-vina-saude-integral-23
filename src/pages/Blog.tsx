@@ -30,48 +30,85 @@ const Blog = () => {
         <div className="hero-overlay absolute inset-0" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Blog
-            </h1>
-            <p className="text-xl text-gray-200">
-              Nosso blog tem posts sobre Medicina Chinesa e cultura!
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Seus posts criados por você */}
-      <section className="py-16 bg-white">
+                  {/* Novo layout: 1 caixa principal + 3 caixas menores */}
+      <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-deep-blue mb-8 text-center">Artigos Recentes</h2>
-            
-            {/* Post 1: Ansiedade */}
-            <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
-              <h3 className="text-xl font-bold text-deep-blue">Acupuntura para Ansiedade</h3>
-              <p className="text-gray-600 mt-2">Alívio natural e eficaz com técnicas milenares da Medicina Chinesa.</p>
-              <a href="/blog/acupuntura-ansiedade" className="text-deep-blue hover:text-blue-800 font-semibold mt-2 inline-block">
-                Ler artigo completo →
-              </a>
+
+            {/* Caixa Principal */}
+            <div className="bg-white rounded-xl shadow-lg p-6 mb-8 flex flex-col md:flex-row gap-6 items-center border border-gray-200">
+              <img 
+                src="https://via.placeholder.com/600x400" 
+                alt="Post em destaque" 
+                className="w-full md:w-2/5 rounded-lg object-cover"
+              />
+              <div>
+                <h3 className="text-2xl font-bold text-deep-blue">Acupuntura para Ansiedade</h3>
+                <p className="text-gray-600 mt-3">
+                  Alívio natural e eficaz com técnicas milenares da Medicina Chinesa.
+                </p>
+                <a href="/blog/acupuntura-ansiedade" className="text-deep-blue font-semibold mt-4 inline-block">
+                  Ler artigo completo →
+                </a>
+              </div>
             </div>
 
-            {/* Post 2: Dor Lombar */}
-            <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
-              <h3 className="text-xl font-bold text-deep-blue">Acupuntura para Dor Lombar</h3>
-              <p className="text-gray-600 mt-2">Alívio natural e eficaz com técnicas milenares da Medicina Chinesa.</p>
-              <a href="/blog/acupuntura-dor-lombar" className="text-deep-blue hover:text-blue-800 font-semibold mt-2 inline-block">
-                Ler artigo completo →
-              </a>
-            </div>
+            {/* Três Caixas Menores */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              
+              {/* Caixa 2: Dor Lombar */}
+              <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 hover:shadow-md transition-shadow">
+                <img 
+                  src="https://via.placeholder.com/600x300" 
+                  alt="Acupuntura para Dor Lombar" 
+                  className="w-full h-40 object-cover rounded-lg"
+                />
+                <h3 className="font-bold text-deep-blue mt-4">Acupuntura para Dor Lombar</h3>
+                <p className="text-gray-600 text-sm mt-2">
+                  Tratamento eficaz e natural para alívio da dor.
+                </p>
+                <a href="/blog/acupuntura-dor-lombar" className="text-deep-blue text-sm font-medium mt-3 inline-block">
+                  Ler mais →
+                </a>
+              </div>
 
+              {/* Caixa 3: Saúde Emocional */}
+              <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 hover:shadow-md transition-shadow">
+                <img 
+                  src="https://via.placeholder.com/600x300" 
+                  alt="Saúde Emocional e Acupuntura" 
+                  className="w-full h-40 object-cover rounded-lg"
+                />
+                <h3 className="font-bold text-deep-blue mt-4">Saúde Emocional</h3>
+                <p className="text-gray-600 text-sm mt-2">
+                  Equilíbrio mental com práticas milenares.
+                </p>
+                <a href="#" className="text-deep-blue text-sm font-medium mt-3 inline-block">
+                  Ler mais →
+                </a>
+              </div>
+
+              {/* Caixa 4: Nutrição Chinesa */}
+              <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 hover:shadow-md transition-shadow">
+                <img 
+                  src="https://via.placeholder.com/600x300" 
+                  alt="Nutrição na Medicina Chinesa" 
+                  className="w-full h-40 object-cover rounded-lg"
+                />
+                <h3 className="font-bold text-deep-blue mt-4">Nutrição Chinesa</h3>
+                <p className="text-gray-600 text-sm mt-2">
+                  Alimentação equilibrada segundo a sabedoria milenar.
+                </p>
+                <a href="#" className="text-deep-blue text-sm font-medium mt-3 inline-block">
+                  Ler mais →
+                </a>
+              </div>
+
+            </div>
           </div>
         </div>
       </section>
-
-      {/* Newsletter Subscription */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6 text-deep-blue">
               Mantenha-se Atualizado
             </h2>
