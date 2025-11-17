@@ -70,7 +70,7 @@ const Blog = () => {
               {/* Caixa 2: Dor Lombar */}
               <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 hover:shadow-md transition-shadow">
                 <img 
-                  src="https://via.placeholder.com/600x300" 
+                  src="/lovable-uploads/acupuntura-dor-lombar.jpg" 
                   alt="Acupuntura para Dor Lombar" 
                   className="w-full h-40 object-cover rounded-lg"
                 />
