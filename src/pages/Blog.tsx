@@ -86,7 +86,7 @@ const Blog = () => {
               {/* Caixa 3: Saúde Emocional */}
               <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 hover:shadow-md transition-shadow">
                 <img 
-                  src="https://via.placeholder.com/600x300" 
+                  src="/lovable-uploads/saude-emocional.jpg" 
                   alt="Saúde Emocional e Acupuntura" 
                   className="w-full h-40 object-cover rounded-lg"
                 />
