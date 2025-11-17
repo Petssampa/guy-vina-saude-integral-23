@@ -102,7 +102,7 @@ const Blog = () => {
               {/* Caixa 4: Nutrição Chinesa */}
               <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 hover:shadow-md transition-shadow">
                 <img 
-                  src="https://via.placeholder.com/600x300" 
+                  src="/lovable-uploads/nutricao-chinesa.jpg" 
                   alt="Nutrição na Medicina Chinesa" 
                   className="w-full h-40 object-cover rounded-lg"
                 />
