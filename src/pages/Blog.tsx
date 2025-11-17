@@ -49,8 +49,8 @@ const Blog = () => {
             {/* Caixa Principal */}
             <div className="bg-white rounded-xl shadow-lg p-6 mb-8 flex flex-col md:flex-row gap-6 items-center border border-gray-200">
               <img 
-                src="https://via.placeholder.com/600x400" 
-                alt="Post em destaque" 
+                src="/lovable-uploads/acupuntura-destaque.jpg"  // ← IMAGEM REAL ADICIONADA AQUI!
+                alt="Acupuntura para Ansiedade" 
                 className="w-full md:w-2/5 rounded-lg object-cover"
               />
               <div>
