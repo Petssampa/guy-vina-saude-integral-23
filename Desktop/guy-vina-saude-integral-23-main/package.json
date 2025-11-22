@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "meu-projeto-vite-win7",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "2.2.0",
+    "autoprefixer": "^10.4.16",
+    "esbuild": "0.14.54",
+    "postcss": "^8.4.31",
+    "rollup": "2.79.1",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7",
+    "vite": "4.3.9"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
