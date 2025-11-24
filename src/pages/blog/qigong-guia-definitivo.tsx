@@ -126,12 +126,8 @@ o Qi é a força motriz por trás das funções fisiológicas. A prática otimiz
 <h3>Onde o Qi Reside: Meridianos e Centros de Energia</h3>
 
       <img
-        src="/images/uploads/um-
-
-ponto-abaixo-do-umbigo-destacando-dan-tien-inferior.jpg"
-        alt="Ilustração anatômica destacando o 
-
-ponto do Dantien inferior, cerca de três dedos abaixo do umbigo"
+        src="/lovable-uploads/um-ponto-abaixo-do-umbigo-destacando-dan-tien-inferior.jpg"
+        alt="Ilustração anatômica destacando o ponto do Dantien inferior, cerca de três dedos abaixo do umbigo"
         style={{ width: '100%', height: 
 
 'auto', borderRadius: '6px', margin: '25px 0' }}
@@ -285,7 +281,7 @@ Kung): seu guia completo para entender a energia vital, história, benefícios p
 filosofia. Cultive bem-estar e equilíbrio em sua vida com nossa expertise.",
   image: 
 
-"/images/uploads/praticando-qigong-em-um-ambiente-natural.jpg",
+"/lovable-uploads/praticando-qigong-em-um-ambiente-natural.jpg",
   keywords: "medicina chinesa, 
 
 saúde emocional, acupuntura, qi gong, chi kung, ansiedade, bem-estar, bioeletricidade, sistema 
