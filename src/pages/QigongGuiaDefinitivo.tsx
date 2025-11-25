@@ -19,9 +19,19 @@ const QigongGuiaDefinitivo = () => {
 
       <article className="max-w-3xl mx-auto px-4 py-12 text-gray-700 leading-relaxed">
         <h1 className="text-3xl md:text-4xl font-bold text-deep-blue mb-8 mt-6">
-          Qigong (Chi Kung): O Guia Definitivo para Cultivar a Energia Vital, Saúde e Bem-Estar
+          Qigong (Chi Kung): O Guia Definitivo para Cultivar a Energia
         </h1>
-
+      {/* Imagem: Praticando Qi Gong */}
+      <div className="my-10">
+        <img
+          src="/lovable-uploads/praticando-qigong-em-um-ambiente-natural-corpo.jpg"
+          alt="Ilustração anatômica destacando o ponto do Dantien inferior"
+          className="w-full rounded-lg"
+        />
+          <p className="text-center text-sm text-gray-500 mt-2">
+            Um ponto abaixo do umbigo destacando o Dantien inferior
+          </p>
+        </div>
         <p className="mb-6">
           A busca por saúde e bem-estar no mundo moderno frequentemente nos leva a soluções complexas ou farmacológicas. No entanto, uma tecnologia ancestral de regulação interna, refinada por milênios na China, oferece uma abordagem diferente: o Qigong (ou Chi Kung).
         </p>
