@@ -40,7 +40,7 @@ const Blog = () => {
         </div>
       </section>
 
-      {/* ✅ NOVO LAYOUT: Caixa Principal + 3 Caixas Menores */}
+      {/* ✅ NOVO LAYOUT: Caixa Principal + 6 Caixas Menores (3 atuais + 3 novas) */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
@@ -49,7 +49,7 @@ const Blog = () => {
             {/* Caixa Principal */}
             <div className="bg-white rounded-xl shadow-lg p-6 mb-8 flex flex-col md:flex-row gap-6 items-center border border-gray-200">
               <img 
-                src="/lovable-uploads/acupuntura-destaque.jpg"  // ← IMAGEM REAL ADICIONADA AQUI!
+                src="/lovable-uploads/acupuntura-destaque.jpg"
                 alt="Acupuntura para Ansiedade" 
                 className="w-full md:w-2/5 rounded-lg object-cover"
               />
@@ -64,8 +64,8 @@ const Blog = () => {
               </div>
             </div>
 
-            {/* Três Caixas Menores */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* ✅ PRIMEIRO BLOCO: 3 Caixas Atuais */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               
               {/* Caixa 2: Dor Lombar */}
               <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 hover:shadow-md transition-shadow">
@@ -114,7 +114,51 @@ const Blog = () => {
                   Ler mais →
                 </a>
               </div>
+            </div>
 
+            {/* ✅ SEGUNDO BLOCO: 3 Novas Caixas (para futuros posts) */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {/* Caixa 5: Futuro Post 1 */}
+              <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 opacity-70 hover:opacity-100 transition-opacity">
+                <div className="w-full h-40 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <span className="text-gray-500 text-sm">Em breve</span>
+                </div>
+                <h3 className="font-bold text-deep-blue mt-4">Novo Post em Breve</h3>
+                <p className="text-gray-500 text-sm mt-2">
+                  Conteúdo novo chegando em breve.
+                </p>
+                <a href="#" className="text-gray-400 text-sm font-medium mt-3 inline-block cursor-not-allowed">
+                  Indisponível
+                </a>
+              </div>
+
+              {/* Caixa 6: Futuro Post 2 */}
+              <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 opacity-70 hover:opacity-100 transition-opacity">
+                <div className="w-full h-40 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <span className="text-gray-500 text-sm">Em breve</span>
+                </div>
+                <h3 className="font-bold text-deep-blue mt-4">Novo Post em Breve</h3>
+                <p className="text-gray-500 text-sm mt-2">
+                  Conteúdo novo chegando em breve.
+                </p>
+                <a href="#" className="text-gray-400 text-sm font-medium mt-3 inline-block cursor-not-allowed">
+                  Indisponível
+                </a>
+              </div>
+
+              {/* Caixa 7: Futuro Post 3 */}
+              <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 opacity-70 hover:opacity-100 transition-opacity">
+                <div className="w-full h-40 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <span className="text-gray-500 text-sm">Em breve</span>
+                </div>
+                <h3 className="font-bold text-deep-blue mt-4">Novo Post em Breve</h3>
+                <p className="text-gray-500 text-sm mt-2">
+                  Conteúdo novo chegando em breve.
+                </p>
+                <a href="#" className="text-gray-400 text-sm font-medium mt-3 inline-block cursor-not-allowed">
+                  Indisponível
+                </a>
+              </div>
             </div>
           </div>
         </div>
