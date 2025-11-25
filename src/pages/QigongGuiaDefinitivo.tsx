@@ -29,7 +29,7 @@ const QigongGuiaDefinitivo = () => {
           className="w-full rounded-lg"
         />
           <p className="text-center text-sm text-gray-500 mt-2">
-            Um ponto abaixo do umbigo destacando o Dantien inferior
+            Praticante de Qigong ao nascer do sol para cultivar energia vital
           </p>
         </div>
         <p className="mb-6">
