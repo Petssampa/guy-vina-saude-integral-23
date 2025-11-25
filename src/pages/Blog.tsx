@@ -118,17 +118,19 @@ const Blog = () => {
 
             {/* ✅ SEGUNDO BLOCO: 3 Novas Caixas (para futuros posts) */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {/* Caixa 5: Futuro Post 1 */}
-              <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 opacity-70 hover:opacity-100 transition-opacity">
-                <div className="w-full h-40 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500 text-sm">Em breve</span>
-                </div>
-                <h3 className="font-bold text-deep-blue mt-4">Novo Post em Breve</h3>
-                <p className="text-gray-500 text-sm mt-2">
-                  Conteúdo novo chegando em breve.
+              {/* Caixa 5: Qigong — Guia Definitivo */}
+              <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 hover:shadow-md transition-shadow">
+                <img 
+                  src="/lovable-uploads/praticando-qigong-em-um-ambiente-natural.jpg" 
+                  alt="Qigong: Cultivando Energia Vital, Saúde e Bem-Estar"
+                  className="w-full h-40 object-cover rounded-lg"
+                />
+                <h3 className="font-bold text-deep-blue mt-4">Qigong: Guia Definitivo</h3>
+                <p className="text-gray-600 text-sm mt-2">
+                  Aprenda a cultivar energia vital, equilíbrio emocional e saúde com práticas milenares.
                 </p>
-                <a href="#" className="text-gray-400 text-sm font-medium mt-3 inline-block cursor-not-allowed">
-                  Indisponível
+                <a href="/qigong-guia-definitivo" className="text-deep-blue text-sm font-medium mt-3 inline-block">
+                  Ler mais →
                 </a>
               </div>
 
