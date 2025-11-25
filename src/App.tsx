@@ -15,6 +15,7 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import MaineCoonPost from "./pages/MaineCoonPost"; // 👈 NOVA LINHA
 import BlogPostDorLombar from "./pages/BlogPostDorLombar";
+import QigongGuiaDefinitivo from "./pages/QigongGuiaDefinitivo";
 
 const queryClient = new QueryClient();
 
@@ -39,6 +40,7 @@ const App = () => (
           <Route path="/blog/mainecoon" element={<MaineCoonPost />} /> // 👈 NOVA LINHA
           <Route path="/blog/acupuntura-dor-lombar" element={<BlogPostDorLombar />} />
           <Route path="/blog/acupuntura-ansiedade" element={<BlogPostAcupunturaAnsiedade />} />
+          <Route path="/qigong-guia-definitivo" element={<QigongGuiaDefinitivo />} />
           <Route path="/contato" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
