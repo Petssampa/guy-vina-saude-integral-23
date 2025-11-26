@@ -9,13 +9,13 @@ const QigongGuiaDefinitivo = () => {
       <Header />
 
       {/* Imagem de capa destacada */}
-      <div className="w-full overflow-hidden">
-        <img
-          src="/lovable-uploads/praticando-qigong-em-um-ambiente-natural.jpg"
+      <figure>
+       <img 
+          src="/lovable-uploads/praticando-qigong-em-um-ambiente-natural.jpg" 
           alt="Qigong: Cultivando Energia Vital, Saúde e Bem-Estar"
-          className="w-full max-h-[500px] object-cover"
-        />
-      </div>
+          style={{ width: "100%", borderRadius: "8px", margin: "20px 0" }}
+          />
+      </figure>
 
       <article className="max-w-3xl mx-auto px-4 py-12 text-gray-700 leading-relaxed">
         <h1 className="text-3xl md:text-4xl font-bold text-deep-blue mb-8 mt-6">
