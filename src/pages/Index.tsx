@@ -176,11 +176,12 @@ const Index = () => {
         <div className="relative z-10 text-center text-white max-w-6xl mx-auto px-4">
           <div className="mb-8">
             <LazyImage 
-              src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=200&h=200&auto=format&fit=crop&crop=face"
+              src="/lovable-uploads/geisler-viana-qi-gong.jpg"
               alt="Geisler Viana, especialista em Medicina Tradicional Chinesa"
-              className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-bronze"
+              className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-bronze object-cover"
             />
           </div>
+          
           <h1 className="text-3xl md:text-5xl font-bold mb-4 leading-tight font-serif">
             TERAPIA TRADICIONAL CHINESA
           </h1>
