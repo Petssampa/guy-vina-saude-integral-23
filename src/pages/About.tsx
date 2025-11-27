@@ -61,12 +61,13 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
             <div>
-              <img 
-                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=600&h=400&auto=format&fit=crop&crop=face"
+              <img
+                src="/lovable-uploads/geisler-viana-qi-gong-sobre.jpg"
                 alt="Geisler Viana, especialista em Medicina Tradicional Chinesa"
-                className="rounded-lg shadow-lg w-full"
+                className="rounded-lg shadow-lg w-full object-cover"
               />
             </div>
+        
             <div>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Sou Geisler Viana, Terapeuta de Medicina Tradicional Chinesa (MTC). Ajudo pessoas a cuidarem da saúde de forma mais natural, integral e consciente, tratando não apenas os sintomas, mas as causas profundas dos desequilíbrios físicos, emocionais e energéticos.
