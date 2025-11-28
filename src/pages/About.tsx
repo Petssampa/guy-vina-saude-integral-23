@@ -10,11 +10,11 @@ const About = () => {
   useSEO({
     title: "Sobre Geisler Viana | Especialista em Medicina Tradicional Chinesa",
     description: "Conheça a trajetória de Geisler Viana, especialista em MTC com anos de experiência em acupuntura, fitoterapia e bem-estar integral.",
-    keywords: "geisler viana, medicina tradicional chinesa, especialista mtc, acupuntura, fitoterapia, experiência, trajetória",
-    canonicalUrl: "https://guyvina.com/sobre-guy-vina-medicina-chinesa",
+    keywords: "geisler viana, qi gong, medicina tradicional chinesa, especialista mtc, acupuntura, fitoterapia, experiência, trajetória",
+    canonicalUrl: "https://terapiachinesageisler.com.br/sobre-guy-vina-medicina-chinesa",
     ogTitle: "Sobre Geisler Viana | Especialista em Medicina Tradicional Chinesa",
     ogDescription: "Conheça a trajetória de Geisler Viana, especialista em MTC com anos de experiência em acupuntura, fitoterapia e bem-estar integral.",
-    ogUrl: "https://guyvina.com/sobre-guy-vina-medicina-chinesa"
+    ogUrl: "https://terapiachinesageisler.com.br/sobre-guy-vina-medicina-chinesa"
   });
 
   const specialties = [
@@ -100,7 +100,7 @@ const About = () => {
             </ul>
 
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Com mais de uma década de atuação clínica, desenvolvi um atendimento personalizado e empático, voltado a pessoas que desejam restaurar sua saúde de forma integral, utilizando as ferramentas terapêuticas da MTC como:
+              Com alicerce em mais de uma década de estudos na Medicina Tradicional Chinesa, atuo com foco no Qigong. Desenvolvi uma abordagem personalizada e empática, voltada a pessoas que buscam restaurar sua saúde de forma integral através do cultivo da energia vital, utilizando também outras ferramentas terapêuticas da MTC como:
             </p>
 
             <ul className="text-lg text-gray-700 mb-8 space-y-2">
@@ -111,7 +111,7 @@ const About = () => {
             </ul>
           </div>
 
-          {/* Quem Eu Ajudo */}
+          {/* Quem eu Auxilio */}
           <div className="max-w-4xl mx-auto mb-16">
             <h2 className="text-3xl font-bold text-deep-blue mb-8">
               Quem Eu Ajudo
