@@ -100,7 +100,7 @@ const About = () => {
             </ul>
 
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Com alicerce em mais de uma década de estudos na Medicina Tradicional Chinesa, atuo com foco no Qigong. Desenvolvi uma abordagem personalizada e empática, voltada a pessoas que buscam restaurar sua saúde de forma integral através do cultivo da energia vital, utilizando também outras ferramentas terapêuticas da MTC como:
+              Com alicerce em mais de uma década de estudos na Medicina Tradicional Chinesa, atuo com foco no Qigong. Desenvolvi uma abordagem personalizada e empática, voltada a pessoas que buscam restaurar sua saúde de forma integral através do cultivo da energia vital, utilizo também outras ferramentas terapêuticas da MTC como:
             </p>
 
             <ul className="text-lg text-gray-700 mb-8 space-y-2">
