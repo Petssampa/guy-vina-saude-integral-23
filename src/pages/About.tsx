@@ -111,7 +111,7 @@ const About = () => {
             </ul>
           </div>
 
-          {/* Quem eu Auxilio */}
+          {/* Quem Eu Auxilio */}
           <div className="max-w-4xl mx-auto mb-16">
             <h2 className="text-3xl font-bold text-deep-blue mb-8">
               Quem Eu Ajudo
