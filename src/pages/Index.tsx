@@ -30,10 +30,10 @@ const Index = () => {
         "email": "contato@geislerviana.com",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Rua Quatinga, 2b",
+          "streetAddress": "Rua Quatinga, 12b",
           "addressLocality": "São Paulo",
           "addressRegion": "SP",
-          "postalCode": "02140-170",
+          "postalCode": "04140-020",
           "addressCountry": "BR"
         },
         "geo": {
