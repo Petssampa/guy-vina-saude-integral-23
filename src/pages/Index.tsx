@@ -16,7 +16,7 @@ const Index = () => {
     ogTitle: "Terapia Tradicional Chinesa | Qi Gong | Geisler Viana - São Paulo",
     ogDescription: "Transforme sua saúde com Qi Gong e terapias chinesas milenares. Geisler Viana, especialista em Medicina Tradicional Chinesa em São Paulo. Agende consulta.",
     ogImage: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=1200&h=630&auto=format&fit=crop&crop=face",
-    ogUrl: "https://guyvina.com/",
+    ogUrl: "https://terapiachinesageisler.com.br/",
     jsonLd: [
       // LocalBusiness & MedicalBusiness
       {
@@ -93,9 +93,9 @@ const Index = () => {
         "jobTitle": "Especialista em Medicina Tradicional Chinesa",
         "description": "Profissional em terapias integrativas baseadas na Medicina Tradicional Chinesa, especializado em Qi Gong, Tuina e Acupuntura",
         "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=400&h=400&auto=format&fit=crop&crop=face",
-        "url": "https://guyvina.com",
+        "url": "https://terapiachinesageisler.com.br/",
         "sameAs": [
-          "https://guyvina.com/sobre-guy-vina-medicina-chinesa"
+          "https://terapiachinesageisler.com.br/sobre-geisler-viana-medicina-chinesa"
         ],
         "worksFor": {
           "@type": "MedicalBusiness",
@@ -110,7 +110,7 @@ const Index = () => {
         ],
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Rua Quatinga, 2b",
+          "streetAddress": "Rua Quatinga, 12b",
           "addressLocality": "São Paulo",
           "addressRegion": "SP",
           "postalCode": "02140-170",
