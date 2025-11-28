@@ -11,10 +11,10 @@ const About = () => {
     title: "Sobre Geisler Viana | Especialista em Medicina Tradicional Chinesa",
     description: "Conheça a trajetória de Geisler Viana, especialista em MTC com anos de experiência em acupuntura, fitoterapia e bem-estar integral.",
     keywords: "geisler viana, qi gong, medicina tradicional chinesa, especialista mtc, acupuntura, fitoterapia, experiência, trajetória",
-    canonicalUrl: "https://terapiachinesageisler.com.br/sobre-guy-vina-medicina-chinesa",
+    canonicalUrl: "https://terapiachinesageisler.com.br/sobre-geisler-viana-medicina-chinesa",
     ogTitle: "Sobre Geisler Viana | Especialista em Medicina Tradicional Chinesa",
     ogDescription: "Conheça a trajetória de Geisler Viana, especialista em MTC com anos de experiência em acupuntura, fitoterapia e bem-estar integral.",
-    ogUrl: "https://terapiachinesageisler.com.br/sobre-guy-vina-medicina-chinesa"
+    ogUrl: "https://terapiachinesageisler.com.br/sobre-geisler-viana-medicina-chinesa"
   });
 
   const specialties = [
