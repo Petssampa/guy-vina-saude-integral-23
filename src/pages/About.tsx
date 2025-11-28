@@ -67,7 +67,7 @@ const About = () => {
                 className="rounded-lg shadow-lg w-full object-cover"
               />
             </div>
-        
+            
             <div>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Sou Geisler Viana, Terapeuta de Medicina Tradicional Chinesa (MTC). Ajudo pessoas a cuidarem da saúde de forma mais natural, integral e consciente, tratando não apenas os sintomas, mas as causas profundas dos desequilíbrios físicos, emocionais e energéticos.
