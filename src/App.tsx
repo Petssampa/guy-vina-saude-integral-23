@@ -29,7 +29,7 @@ const App = () => (
         <Breadcrumbs />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/sobre-guy-vina-medicina-chinesa" element={<About />} />
+          <Route path="/sobre-geisler-viana" element={<About />} />
           <Route path="/servicos-medicina-tradicional-chinesa" element={<Projects />} />
           <Route path="/blog-medicina-chinesa" element={<Blog />} />
           <Route path="/contato-consulta-acupuntura" element={<Contact />} />
