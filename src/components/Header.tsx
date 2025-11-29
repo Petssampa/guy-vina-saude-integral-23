@@ -35,7 +35,7 @@ const Header = () => {
               Home
             </Link>
             <Link 
-              to="/sobre-guy-vina-medicina-chinesa" 
+              to="/sobre-geisler-viana" 
               className="transition-colors duration-300 pb-1"
               style={{ color: '#174288' }}
               onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#a87a47'}
