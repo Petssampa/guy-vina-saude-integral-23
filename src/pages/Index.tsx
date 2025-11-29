@@ -225,7 +225,7 @@ const Index = () => {
               className="bg-bronze text-white hover:bg-white hover:text-bronze border-2 border-bronze font-semibold px-8 py-3"
               asChild
             >
-              <Link to="/sobre-guy-vina-medicina-chinesa">Saiba Mais</Link>
+              <Link to="/sobre-geisler-viana">Saiba Mais</Link>
             </Button>
           </div>
         </div>
