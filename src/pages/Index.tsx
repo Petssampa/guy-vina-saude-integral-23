@@ -27,7 +27,7 @@ const Index = () => {
         "description": "Especialista em Medicina Tradicional Chinesa oferecendo Qi Gong, Tuina, Acupuntura e terapias chinesas milenares em São Paulo",
         "url": "https://guyvina.com",
         "telephone": "+55-11-99024-1982",
-        "email": "contato@geislerviana.com",
+        "email": "geislerviana@gmail.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Rua Quatinga, 12b",
