@@ -68,7 +68,7 @@ const Footer = () => {
                 <Phone size={16} color="#ffffff" className="mr-2" />
                 +55 11 99024-1982
               </p>
-              <p>✉️ contato@geislerviana.com</p>
+              <p>✉️ geislerviana@gmail.com</p>
               <p>📍 Atendimento em São Paulo</p>
             </div>
           </div>
