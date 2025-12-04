@@ -97,6 +97,7 @@ const About = () => {
               <li>• Acupuntura Clássica e Avançada – CEMETRAC (2012–2014)</li>
               <li>• Fitoterapia Chinesa – CEMETRAC (2014)</li>
               <li>• Qi Gong Zhan Zhuang – ETOSP (2024)</li>
+              <li>• Gerontologia – UNICV (cursando 2025)</li>
             </ul>
 
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
