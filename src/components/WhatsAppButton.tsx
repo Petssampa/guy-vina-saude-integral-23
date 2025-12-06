@@ -1,8 +1,8 @@
 
 const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
-    const message = encodeURIComponent("Olá! Gostaria de saber mais sobre os serviços de Medicina Tradicional Chinesa.");
-    const whatsappUrl = `https://wa.me/351XXXXXXXXX?text=${message}`;
+    const message = encodeURIComponent("Olá! Gostaria de saber mais sobre os serviços de Medicina Tradicional Chinesa (Qi Gong).");
+    const whatsappUrl = `https://wa.me/5511990241982?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };
 
