@@ -35,20 +35,43 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
+  try {
+    const response = await fetch('https://formspree.io/f/xldqlkpg', {
+      method: 'POST',
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      }),
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+    });
+
+    if (response.ok) {
       toast({
         title: "Mensagem enviada com sucesso!",
         description: "Entraremos em contato em breve. Obrigado!",
       });
       setFormData({ name: '', email: '', message: '' });
-      setIsSubmitting(false);
-    }, 1000);
-  };
+    } else {
+      throw new Error('Erro ao enviar');
+    }
+  } catch (error) {
+    toast({
+      title: "Erro ao enviar mensagem",
+      description: "Tente novamente mais tarde ou use o WhatsApp.",
+      variant: "destructive",
+    });
+  } finally {
+    setIsSubmitting(false);
+  }
+};
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Olá! Gostaria de agendar uma consulta.");
