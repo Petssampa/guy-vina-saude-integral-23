@@ -26,7 +26,7 @@ const Index = () => {
         "alternateName": "Guy Vina",
         "description": "Especialista em Medicina Tradicional Chinesa oferecendo Qi Gong, Tuina, Acupuntura e terapias chinesas milenares em São Paulo",
         "url": "https://guyvina.com",
-        "telephone": "+55-11-99024-1982",
+        "telephone": "+55-11-95293-1497",
         "email": "geislerviana@gmail.com",
         "address": {
           "@type": "PostalAddress",
@@ -79,7 +79,7 @@ const Index = () => {
         },
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+55-11-99024-1982",
+          "telephone": "+55-11-95293-1497",
           "contactType": "customer service",
           "availableLanguage": ["Portuguese", "English"]
         }
