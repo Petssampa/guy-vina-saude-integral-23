@@ -66,7 +66,7 @@ const Footer = () => {
             <div className="space-y-2 text-gray-200">
               <p className="flex items-center">
                 <Phone size={16} color="#ffffff" className="mr-2" />
-                +55 11 99024-1982
+                +55 11 95293-1497
               </p>
               <p>✉️ geislerviana@gmail.com</p>
               <p>📍 Atendimento em São Paulo</p>
