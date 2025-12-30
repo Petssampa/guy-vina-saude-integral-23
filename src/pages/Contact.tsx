@@ -200,7 +200,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-deep-blue">Telefone</h4>
-                    <p className="text-gray-600">+55+11 99024-1982</p>
+                    <p className="text-gray-600">+55+11 95293-1497</p>
                   </div>
                 </div>
                 
