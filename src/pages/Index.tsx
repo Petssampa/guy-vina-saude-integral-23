@@ -170,6 +170,8 @@ const Index = () => {
           src="/lovable-uploads/9a1adaaf-2be6-4d5e-8cfd-2e127a678801.webp" 
           alt="Fundo Terapia Tradicional Chinesa"
           className="absolute inset-0 w-full h-full object-cover"
+          width="1920"
+          height="1080"
           fetchpriority="high"
           decoding="sync"
           loading="eager"
@@ -180,11 +182,16 @@ const Index = () => {
         
         <div className="relative z-10 text-center text-white max-w-6xl mx-auto px-4">
           <div className="mb-8">
+            {/* Foto de Perfil Otimizada */}
             <img 
               src="/lovable-uploads/geisler-viana-qi-gong.jpg"
               alt="Geisler Viana, especialista em Medicina Tradicional Chinesa"
-              className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-bronze object-cover"
+              width="128"
+              height="128"
+              className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-bronze object-cover shadow-xl"
               fetchpriority="high"
+              decoding="sync"
+              loading="eager"
             />
           </div>
           
