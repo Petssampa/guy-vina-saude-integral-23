@@ -164,21 +164,27 @@ const Index = () => {
       <Header />
       
       {/* Hero Section com banner principal */}
-      <section className="relative h-[70vh] flex items-center justify-center">
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ 
-            backgroundImage: `url('/lovable-uploads/9a1adaaf-2be6-4d5e-8cfd-2e127a678801.webp')`,
-          }}
+      <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
+        {/* Banner Otimizado */}
+        <img 
+          src="/lovable-uploads/9a1adaaf-2be6-4d5e-8cfd-2e127a678801.webp" 
+          alt="Fundo Terapia Tradicional Chinesa"
+          className="absolute inset-0 w-full h-full object-cover"
+          fetchpriority="high"
+          decoding="sync"
+          loading="eager"
         />
-        <div className="hero-overlay absolute inset-0" />
+        
+        {/* Overlay para escurecer a imagem e destacar o texto */}
+        <div className="hero-overlay absolute inset-0 z-[1]" />
         
         <div className="relative z-10 text-center text-white max-w-6xl mx-auto px-4">
           <div className="mb-8">
-            <LazyImage 
+            <img 
               src="/lovable-uploads/geisler-viana-qi-gong.jpg"
               alt="Geisler Viana, especialista em Medicina Tradicional Chinesa"
               className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-bronze object-cover"
+              fetchpriority="high"
             />
           </div>
           
