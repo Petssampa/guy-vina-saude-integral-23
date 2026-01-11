@@ -168,7 +168,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ 
-            backgroundImage: `url('/lovable-uploads/9a1adaaf-2be6-4d5e-8cfd-2e127a678801.png')`,
+            backgroundImage: `url('/lovable-uploads/9a1adaaf-2be6-4d5e-8cfd-2e127a678801.webp')`,
           }}
         />
         <div className="hero-overlay absolute inset-0" />
