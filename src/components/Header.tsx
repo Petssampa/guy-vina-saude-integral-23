@@ -20,6 +20,9 @@ const Header = () => {
               src="/lovable-uploads/b9206f45-e2a0-405b-a879-1c879054f72b.png" 
               alt="Geisler Viana - Qi Gong" 
               className="h-20 w-auto"
+              fetchpriority="high"
+              decoding="sync"
+              loading="eager"
             />
           </Link>
 
