@@ -17,7 +17,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img 
-              src="/lovable-uploads/b9206f45-e2a0-405b-a879-1c879054f72b.png" 
+              src="/lovable-uploads/b9206f45-e2a0-405b-a879-1c879054f72b.webp" 
               alt="Geisler Viana - Qi Gong" 
               className="h-20 w-auto"
               fetchpriority="high"
