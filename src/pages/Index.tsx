@@ -3,7 +3,6 @@ import { Button } from '@/components/ui/button';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
-import LazyImage from '@/components/LazyImage';
 import { useSEO } from '@/hooks/useSEO';
 
 const Index = () => {
@@ -18,7 +17,6 @@ const Index = () => {
     ogImage: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=1200&h=630&auto=format&fit=crop&crop=face",
     ogUrl: "https://terapiachinesageisler.com.br/",
     jsonLd: [
-      // LocalBusiness & MedicalBusiness
       {
         "@context": "https://schema.org",
         "@type": "MedicalBusiness",
@@ -84,7 +82,6 @@ const Index = () => {
           "availableLanguage": ["Portuguese", "English"]
         }
       },
-      // Person (Geisler Viana)
       {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -116,45 +113,6 @@ const Index = () => {
           "postalCode": "02140-170",
           "addressCountry": "BR"
         }
-      },
-      // Service - Qi Gong
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Qi Gong",
-        "description": "Exercícios terapêuticos que combinam movimentos suaves, respiração e meditação para cultivar a energia vital",
-        "provider": {
-          "@type": "Person",
-          "name": "Geisler Viana"
-        },
-        "serviceType": "Terapia Tradicional Chinesa",
-        "areaServed": "São Paulo, SP, Brasil"
-      },
-      // Service - Tuina
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Tuina",
-        "description": "Massagem terapêutica chinesa que combina técnicas manuais para relaxamento e cura natural",
-        "provider": {
-          "@type": "Person",
-          "name": "Geisler Viana"
-        },
-        "serviceType": "Terapia Tradicional Chinesa",
-        "areaServed": "São Paulo, SP, Brasil"
-      },
-      // Service - Acupuntura
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Acupuntura",
-        "description": "Técnica milenar para equilibrar a energia vital e tratar diversos desequilíbrios por meio de pontos específicos",
-        "provider": {
-          "@type": "Person",
-          "name": "Geisler Viana"
-        },
-        "serviceType": "Terapia Tradicional Chinesa",
-        "areaServed": "São Paulo, SP, Brasil"
       }
     ]
   });
@@ -163,33 +121,30 @@ const Index = () => {
     <div className="min-h-screen">
       <Header />
       
-      {/* Hero Section com banner principal */}
+      {/* Hero Section com banner principal - CORREÇÃO LCP */}
       <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
-        {/* Banner Otimizado */}
         <img 
           src="/lovable-uploads/9a1adaaf-2be6-4d5e-8cfd-2e127a678801.webp" 
           alt="Fundo Terapia Tradicional Chinesa"
           className="absolute inset-0 w-full h-full object-cover"
-          width="1920"
+          width="1920" 
           height="1080"
-          fetchpriority="high"
+          fetchPriority="high" 
           decoding="sync"
           loading="eager"
         />
         
-        {/* Overlay para escurecer a imagem e destacar o texto */}
         <div className="hero-overlay absolute inset-0 z-[1]" />
         
         <div className="relative z-10 text-center text-white max-w-6xl mx-auto px-4">
           <div className="mb-8">
-            {/* Foto de Perfil Otimizada */}
             <img 
               src="/lovable-uploads/geisler-viana-qi-gong.jpg"
               alt="Geisler Viana, especialista em Medicina Tradicional Chinesa"
               width="128"
               height="128"
               className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-bronze object-cover shadow-xl"
-              fetchpriority="high"
+              fetchPriority="high"
               decoding="sync"
               loading="eager"
             />
@@ -258,7 +213,6 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Qi Gong */}
             <article className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow text-center">
               <div className="w-16 h-16 bg-bronze rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-white text-2xl" aria-hidden="true">氣功</span>
@@ -269,7 +223,6 @@ const Index = () => {
               </p>
             </article>
 
-            {/* Tuina */}
             <article className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow text-center">
               <div className="w-16 h-16 bg-bronze rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-white text-2xl" aria-hidden="true">推拿</span>
@@ -280,7 +233,6 @@ const Index = () => {
               </p>
             </article>
 
-            {/* Acupuntura */}
             <article className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow text-center">
               <div className="w-16 h-16 bg-bronze rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-white text-2xl" aria-hidden="true">針刺</span>
